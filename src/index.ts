@@ -2,6 +2,7 @@ import ClientCookies, { CookieAttributes } from 'js-cookie';
 import { CookieOptions, Response } from 'express';
 import _Vue, { ComponentOptions } from 'vue';
 import { Cookie, CookieBag, CookieRaw, Cookies } from './types';
+import './module';
 
 /**
  * To use cookies on server side
@@ -159,6 +160,8 @@ export const execServerCookies = (
     }
   });
 };
+
+export { Cookie, CookieBag, CookieRaw, Cookies };
 
 /**
  * Vue plugin
