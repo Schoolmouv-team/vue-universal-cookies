@@ -2,7 +2,9 @@
   "name": "@schoolmouv/vue-universal-cookies",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/vue-universal-cookies.js",
+  "umd:main": "dist/vue-universal-cookies.umd.js",
+  "module": "dist/vue-universal-cookies.module.js",
   "types": "dist.index.d.ts",
   "scripts": {
     "src:build": "rollup -c",
