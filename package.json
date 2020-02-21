@@ -5,7 +5,7 @@
   "main": "dist/vue-universal-cookies.js",
   "umd:main": "dist/vue-universal-cookies.umd.js",
   "module": "dist/vue-universal-cookies.module.js",
-  "types": "dist.index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "src:build": "rollup -c",
     "src:watch": "rollup -c --watch",
